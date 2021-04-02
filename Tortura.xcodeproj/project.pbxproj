@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C521D6425C6815300FFC675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D6325C6815300FFC675 /* AppDelegate.swift */; };
+		7C521D6625C6815300FFC675 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D6525C6815300FFC675 /* SceneDelegate.swift */; };
+		7C521D6825C6815300FFC675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D6725C6815300FFC675 /* ViewController.swift */; };
+		7C521D6B25C6815300FFC675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C521D6925C6815300FFC675 /* Main.storyboard */; };
+		7C521D6E25C6815300FFC675 /* Tortura.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D6C25C6815300FFC675 /* Tortura.xcdatamodeld */; };
+		7C521D7025C6815500FFC675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C521D6F25C6815500FFC675 /* Assets.xcassets */; };
+		7C521D7325C6815500FFC675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C521D7125C6815500FFC675 /* LaunchScreen.storyboard */; };
+		7C521D7E25C68A8A00FFC675 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D7D25C68A8A00FFC675 /* MainTabBarController.swift */; };
+		7C521D8125C68AA300FFC675 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D8025C68AA300FFC675 /* AlarmViewController.swift */; };
+		7C521D8825C6A82000FFC675 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D8625C6A82000FFC675 /* AlarmTableViewCell.swift */; };
+		7C521D8925C6A82000FFC675 /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C521D8725C6A82000FFC675 /* AlarmTableViewCell.xib */; };
+		7C521D8F25C6B8D900FFC675 /* DaysCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C521D8D25C6B8D900FFC675 /* DaysCollectionViewCell.swift */; };
+		7C521D9025C6B8D900FFC675 /* DaysCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C521D8E25C6B8D900FFC675 /* DaysCollectionViewCell.xib */; };
+		7C6B1C0425D030D700D38C5B /* MKDataDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA34DDB25D0304E006E55A6 /* MKDataDetector.framework */; };
+		7C6B1C0525D030D700D38C5B /* MKDataDetector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA34DDB25D0304E006E55A6 /* MKDataDetector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CA34DDA25D0304E006E55A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA34DD525D0304E006E55A6 /* MKDataDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A874CCFB1F10F3260022AA85;
+			remoteInfo = MKDataDetector;
+		};
+		7CA34DDC25D0304E006E55A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CA34DD525D0304E006E55A6 /* MKDataDetector.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A88749061F6C538500013F25;
+			remoteInfo = MKDataDetectorTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C6B1C0625D030D700D38C5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7C6B1C0525D030D700D38C5B /* MKDataDetector.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C521D6025C6815300FFC675 /* Tortura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tortura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C521D6325C6815300FFC675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C521D6525C6815300FFC675 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7C521D6725C6815300FFC675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C521D6A25C6815300FFC675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C521D6D25C6815300FFC675 /* Tortura.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tortura.xcdatamodel; sourceTree = "<group>"; };
+		7C521D6F25C6815500FFC675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C521D7225C6815500FFC675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C521D7425C6815500FFC675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C521D7D25C68A8A00FFC675 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		7C521D8025C68AA300FFC675 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		7C521D8625C6A82000FFC675 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		7C521D8725C6A82000FFC675 /* AlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmTableViewCell.xib; sourceTree = "<group>"; };
+		7C521D8D25C6B8D900FFC675 /* DaysCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C521D8E25C6B8D900FFC675 /* DaysCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaysCollectionViewCell.xib; sourceTree = "<group>"; };
+		7CA34DD525D0304E006E55A6 /* MKDataDetector.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MKDataDetector.xcodeproj; path = "../../Downloads/mkdatadetector-master/MKDataDetector.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C521D5D25C6815300FFC675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6B1C0425D030D700D38C5B /* MKDataDetector.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C521D5725C6815300FFC675 = {
+			isa = PBXGroup;
+			children = (
+				7CA34DD525D0304E006E55A6 /* MKDataDetector.xcodeproj */,
+				7C521D6225C6815300FFC675 /* Tortura */,
+				7C521D6125C6815300FFC675 /* Products */,
+				7C6B1C0125D030D700D38C5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C521D6125C6815300FFC675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C521D6025C6815300FFC675 /* Tortura.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C521D6225C6815300FFC675 /* Tortura */ = {
+			isa = PBXGroup;
+			children = (
+				7C521D8325C69FBB00FFC675 /* Cells */,
+				7C521D6325C6815300FFC675 /* AppDelegate.swift */,
+				7C521D6525C6815300FFC675 /* SceneDelegate.swift */,
+				7C521D8025C68AA300FFC675 /* AlarmViewController.swift */,
+				7C521D6725C6815300FFC675 /* ViewController.swift */,
+				7C521D6925C6815300FFC675 /* Main.storyboard */,
+				7C521D6F25C6815500FFC675 /* Assets.xcassets */,
+				7C521D7125C6815500FFC675 /* LaunchScreen.storyboard */,
+				7C521D7425C6815500FFC675 /* Info.plist */,
+				7C521D6C25C6815300FFC675 /* Tortura.xcdatamodeld */,
+				7C521D7D25C68A8A00FFC675 /* MainTabBarController.swift */,
+			);
+			path = Tortura;
+			sourceTree = "<group>";
+		};
+		7C521D8325C69FBB00FFC675 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C521D8525C6A7DA00FFC675 /* Alarm */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7C521D8525C6A7DA00FFC675 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				7C521D8C25C6B8B300FFC675 /* Daycell */,
+				7C521D8625C6A82000FFC675 /* AlarmTableViewCell.swift */,
+				7C521D8725C6A82000FFC675 /* AlarmTableViewCell.xib */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		7C521D8C25C6B8B300FFC675 /* Daycell */ = {
+			isa = PBXGroup;
+			children = (
+				7C521D8D25C6B8D900FFC675 /* DaysCollectionViewCell.swift */,
+				7C521D8E25C6B8D900FFC675 /* DaysCollectionViewCell.xib */,
+			);
+			path = Daycell;
+			sourceTree = "<group>";
+		};
+		7C6B1C0125D030D700D38C5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CA34DD625D0304E006E55A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CA34DDB25D0304E006E55A6 /* MKDataDetector.framework */,
+				7CA34DDD25D0304E006E55A6 /* MKDataDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C521D5F25C6815300FFC675 /* Tortura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C521D7725C6815500FFC675 /* Build configuration list for PBXNativeTarget "Tortura" */;
+			buildPhases = (
+				7C521D5C25C6815300FFC675 /* Sources */,
+				7C521D5D25C6815300FFC675 /* Frameworks */,
+				7C521D5E25C6815300FFC675 /* Resources */,
+				7C6B1C0625D030D700D38C5B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tortura;
+			productName = Tortura;
+			productReference = 7C521D6025C6815300FFC675 /* Tortura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C521D5825C6815300FFC675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7C521D5F25C6815300FFC675 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7C521D5B25C6815300FFC675 /* Build configuration list for PBXProject "Tortura" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C521D5725C6815300FFC675;
+			productRefGroup = 7C521D6125C6815300FFC675 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7CA34DD625D0304E006E55A6 /* Products */;
+					ProjectRef = 7CA34DD525D0304E006E55A6 /* MKDataDetector.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7C521D5F25C6815300FFC675 /* Tortura */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7CA34DDB25D0304E006E55A6 /* MKDataDetector.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MKDataDetector.framework;
+			remoteRef = 7CA34DDA25D0304E006E55A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7CA34DDD25D0304E006E55A6 /* MKDataDetectorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MKDataDetectorTests.xctest;
+			remoteRef = 7CA34DDC25D0304E006E55A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C521D5E25C6815300FFC675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C521D7325C6815500FFC675 /* LaunchScreen.storyboard in Resources */,
+				7C521D7025C6815500FFC675 /* Assets.xcassets in Resources */,
+				7C521D6B25C6815300FFC675 /* Main.storyboard in Resources */,
+				7C521D8925C6A82000FFC675 /* AlarmTableViewCell.xib in Resources */,
+				7C521D9025C6B8D900FFC675 /* DaysCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C521D5C25C6815300FFC675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C521D6825C6815300FFC675 /* ViewController.swift in Sources */,
+				7C521D6E25C6815300FFC675 /* Tortura.xcdatamodeld in Sources */,
+				7C521D8125C68AA300FFC675 /* AlarmViewController.swift in Sources */,
+				7C521D7E25C68A8A00FFC675 /* MainTabBarController.swift in Sources */,
+				7C521D6425C6815300FFC675 /* AppDelegate.swift in Sources */,
+				7C521D8825C6A82000FFC675 /* AlarmTableViewCell.swift in Sources */,
+				7C521D6625C6815300FFC675 /* SceneDelegate.swift in Sources */,
+				7C521D8F25C6B8D900FFC675 /* DaysCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C521D6925C6815300FFC675 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C521D6A25C6815300FFC675 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C521D7125C6815500FFC675 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C521D7225C6815500FFC675 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C521D7525C6815500FFC675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C521D7625C6815500FFC675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C521D7825C6815500FFC675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tortura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithunbarc.barcystock.Tortura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C521D7925C6815500FFC675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tortura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithunbarc.barcystock.Tortura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C521D5B25C6815300FFC675 /* Build configuration list for PBXProject "Tortura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C521D7525C6815500FFC675 /* Debug */,
+				7C521D7625C6815500FFC675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C521D7725C6815500FFC675 /* Build configuration list for PBXNativeTarget "Tortura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C521D7825C6815500FFC675 /* Debug */,
+				7C521D7925C6815500FFC675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C521D6C25C6815300FFC675 /* Tortura.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C521D6D25C6815300FFC675 /* Tortura.xcdatamodel */,
+			);
+			currentVersion = 7C521D6D25C6815300FFC675 /* Tortura.xcdatamodel */;
+			path = Tortura.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7C521D5825C6815300FFC675 /* Project object */;
+}
